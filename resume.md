@@ -1,135 +1,96 @@
-/_ Backbone CSS for Resume Template 1 _/
+---
+name: Sagar Kumar
+header:
+  - text: |
+      <span style="font-size: 1.2em; font-weight: bold;">Applying for: Full Stack Developer</span>
+  - text: <span class="iconify" data-icon="tabler:phone"></span> (+91) 8430296626
+    newLine: true
+  - text: <span class="iconify" data-icon="tabler:mail"></span> sagarkumar020599@gmail.com
+    link: mailto:sagarkumar020599@gmail.com
+  - text: <span class="iconify" data-icon="tabler:brand-github"></span> sagarkumar446
+    link: https://github.com/sagarkumar446
+  - text: <span class="iconify" data-icon="charm:person"></span> LinkedIn
+    link: https://www.linkedin.com/in/sagar-kumar-java-developer/
+---
 
-/_ Basic _/
+## Career Objective
+Detail-oriented and results-driven **Full Stack Developer** with hands-on experience in **Java, Spring Boot, Hibernate, SQL, React.js, Redux, Node.js, and Tailwind CSS**. Skilled in building scalable web applications and automating testing workflows with **Playwright**. Currently working at **Webkul Software Pvt. Ltd.** on **Krayin CRM**, with strong knowledge of **CRM workflows, SaaS applications, Agile methodology, and end-to-end SDLC**. Seeking a challenging developer role where I can leverage my **development + testing expertise** to deliver **robust, high-quality solutions**.
 
-#resume-preview [data-scope="vue-smart-pages"][data-part="page"] {
-background-color: white;
-color: black;
-text-align: justify;
--moz-hyphens: auto;
--ms-hyphens: auto;
--webkit-hyphens: auto;
-hyphens: auto;
-}
+---
 
-#resume-preview p,
-#resume-preview li,
-#resume-preview dl {
-margin: 0;
-}
+## Education
 
-/_ Headings _/
+**Bachelor of Computer Science**  
+  ~ India  
+  ~ 2016 - 2020  
 
-#resume-preview h1,
-#resume-preview h2,
-#resume-preview h3 {
-font-weight: bold;
-}
+---
 
-#resume-preview h1 {
-font-size: 2.13em;
-}
+## Experience
 
-#resume-preview h2,
-#resume-preview h3 {
-margin-bottom: 5px;
-font-size: 1.2em;
-}
+**Quality Analyst (Automation & CRM Testing)**  
+  ~ Webkul Software Pvt. Ltd.  
+  ~ 01/2025 – Present  
 
-#resume-preview h2 {
-border-bottom-style: solid;
-border-bottom-width: 1px;
-}
+- Worked on **Krayin CRM (Open Source Laravel-based CRM)** ensuring high-quality releases.  
+- Designed and executed **automation test scripts in Playwright** for regression, functional, and API testing.  
+- Conducted **manual testing** across multiple CRM modules: Leads, Deals, Customers, Activities.  
+- Collaborated with development teams for **bug reporting, debugging, and feature validation**.  
+- Improved overall **test coverage and defect detection efficiency**, reducing release issues by 30%.  
+- Gained exposure to **PHP Laravel, SaaS products, Agile/Scrum methodology**.  
 
-/_ Lists _/
+**Java Full Stack Developer (Projects & Training)**  
+  ~ Self-Projects / Internship  
+  ~ 2021 – 2024  
 
-#resume-preview ul,
-#resume-preview ol {
-padding-left: 1.5em;
-margin: 0.2em 0;
-}
+- Built **end-to-end web applications** using **Java, Spring Boot, Hibernate, MySQL, and React.js**.  
+- Developed **RESTful APIs** for product management, authentication, and e-commerce workflows.  
+- Integrated React frontend with backend services to deliver **scalable, user-friendly applications**.  
+- Worked with **Git/GitHub for version control**, ensuring clean and collaborative development.  
 
-#resume-preview ul {
-list-style-type: circle;
-}
+---
 
-#resume-preview ol {
-list-style-type: decimal;
-}
+## Projects
 
-/_ Definition Lists _/
+**1. Meerut Heritage Blog (React Application)**  
+🔗 [GitHub Repo](https://github.com/sagarkumar446/meerut-haritage)  
+- **Tech Stack:** React.js, JavaScript, Tailwind CSS, Node.js (planned), SQL (planned).  
+- Created a **blog-style application** to showcase historical places and cultural heritage of Meerut.  
+- Features: Blog posting, responsive UI, community engagement.  
+- Status: **Frontend completed**, backend API development in progress.  
 
-#resume-preview dl {
-display: flex;
-}
+**2. Online Bookstore (Full Stack Project)**  
+- **Tech Stack:** Java, Spring Boot, Hibernate, MySQL, React.js.  
+- Developed a **complete e-commerce platform** with authentication, cart management, and payments.  
+- Implemented **REST APIs** for CRUD operations and integrated with React frontend.  
+- Ensured **scalability and modular design** using Spring Boot microservices approach.  
 
-#resume-preview dl dt,
-#resume-preview dl dd:not(:last-child) {
-flex: 1;
-}
+**3. Portfolio Website**  
+- **Tech Stack:** React.js, Tailwind CSS.  
+- Designed and deployed a **personal portfolio** showcasing technical skills, projects, and achievements.  
 
-/_ Tex _/
+---
 
-#resume-preview :not(span.katex-display) > span.katex {
-font-size: 1em !important;
-}
+## Skills
 
-/_ SVG & Images _/
+**Programming Languages:** <span class="iconify" data-icon="logos:java" data-inline="false"></span> Java, <span class="iconify" data-icon="vscode-icons:file-type-js-official"></span> JavaScript (ES6+), SQL, HTML5, CSS3  
 
-#resume-preview svg.iconify {
-vertical-align: -0.2em;
-}
+**Frameworks & Libraries:** Spring Boot, Hibernate, React.js, Redux, Node.js, Tailwind CSS, Bootstrap, Laravel (exposure)  
 
-#resume-preview img {
-max-width: 100%;
-}
+**Testing & QA Tools:** Playwright (Automation), Manual Testing, API Testing (Postman), Regression Testing, Functional Testing  
 
-/_ Header _/
+**Software Development:** REST API Development, Agile/Scrum, SaaS Applications, CRM Testing  
 
-#resume-preview .resume-header {
-text-align: center;
-}
+**Version Control & Tools:** Git, GitHub, Figma, Jira  
 
-#resume-preview .resume-header h1 {
-text-align: center;
-line-height: 1;
-margin-bottom: 8px;
-}
+**Languages:** English (Proficient), Hindi (Native)  
 
-#resume-preview .resume-header-item:not(.no-separator)::after {
-content: " | ";
-}
+---
 
-/_ Citations _/
+## Achievements
+- Successfully automated **20+ test cases** for CRM workflows, improving test cycle efficiency.  
+- Contributed to **open-source Krayin CRM** at Webkul.  
+- Built personal **projects on GitHub** showcasing **full-stack development expertise**.  
 
-#resume-preview [data-scope="cross-ref"][data-part="definitions"] {
-padding-left: 1.2em;
-}
+---
 
-#resume-preview [data-scope="cross-ref"][data-part="definition"] p {
-margin-left: 0.5em;
-}
-
-#resume-preview [data-scope="cross-ref"][data-part="definition"]::marker {
-content: attr(data-label);
-}
-
-#resume-preview [data-scope="cross-ref"][data-part="reference"] {
-font-size: 100%;
-top: 0;
-}
-
-/_ Dark & print mode _/
-/_ You might want to comment out the following lines if you change the background or text color. _/
-
-.dark #resume-preview [data-scope="vue-smart-pages"][data-part="page"] {
-background-color: hsl(213, 12%, 15%);
-color: hsl(216, 12%, 84%);
-}
-
-@media print {
-.dark #resume-preview [data-scope="vue-smart-pages"][data-part="page"] {
-background-color: white;
-color: black;
-}
-}
